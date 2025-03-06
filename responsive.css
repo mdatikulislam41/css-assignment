@@ -303,4 +303,19 @@ h4.features-title {
   .visible {
     display: none;
   }
+  .feature-title.position {
+    position: relative;
+    text-align: center;
+  }
+
+  .feature-title.position:after {
+    content: "";
+    width: 5rem;
+    height: 1px;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
 }

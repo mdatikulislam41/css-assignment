@@ -139,7 +139,7 @@ nav ul {
 /* Header end */
 
 .offer-section {
-  background-image: url(./images/Rectangle-1.png);
+  background-image: url(../images/Rectangle-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -317,6 +317,7 @@ ul.footer-list {
   text-decoration: underline;
   font-size: 14px;
 }
+
 /* Mobile Menu */
 .Hamburger-menu {
   cursor: pointer;
