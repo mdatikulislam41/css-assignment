@@ -3,7 +3,342 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Assignment</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="left">
+          <div class="logo">
+            <img src="./images/Logo.png" class="logo-img" alt="logo" />
+          </div>
+        </div>
+        <div class="middle">
+          <nav>
+            <ul>
+              <li><a href="" class="text-black nav-link">Buy</a></li>
+              <li><a href="" class="text-black nav-link">Sell</a></li>
+              <li>
+                <a href="" class="text-black nav-link">Create an offer</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="right">
+          <button class="login alt">Login</button>
+          <button class="signup alt">Get Started</button>
+          <span class="tranlate"
+            ><img src="./images/Frame.png" alt="language"
+          /></span>
+        </div>
+      </div>
+      <div class="mobile-menu mobile">
+        <div class="mobile-menu-wrapper">
+          <div class="mobile-menu-left">
+            <div class="logo">
+              <img src="./images/Logo.png" class="logo-img" alt="logo" />
+            </div>
+          </div>
+          <div class="mobile-menu-right">
+            <button
+              popovertarget="menu"
+              popovertargetaction="show"
+              class="Hamburger-menu"
+            >
+              <img src="./images/menu-line.svg" alt="" width="32" height="32" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="offer-section">
+        <div class="container wrapper center">
+          <div class="offer-block">
+            <h1 class="offer-title">Find your offer ✨</h1>
+            <div class="offer-content">
+              <form action="" class="get-offer">
+                <fieldset>
+                  <select name="urrency" id="Currency" class="currency col-4">
+                    <option value="">Currency</option>
+                    <option value="">USD</option>
+                    <option value="">EUR</option>
+                  </select>
+                  <select name="buy" id="buy" class="buy col-4">
+                    <option value="">Buy</option>
+                    <option value="">USD</option>
+                    <option value="">EUR</option>
+                  </select>
+                  <select name="payment" id="payment" class="payment col-4">
+                    <option value="">Payment</option>
+                    <option value="">USD</option>
+                    <option value="">EUR</option>
+                  </select>
+                  <select name="urrency" id="Currency" class="currency col-4">
+                    <option value="">Currency</option>
+                    <option value="">USD</option>
+                    <option value="">EUR</option>
+                  </select>
+                </fieldset>
+                <fieldset>
+                  <input
+                    type="text"
+                    name="how_much"
+                    id=""
+                    placeholder="How Much"
+                    class="col-9 how-much"
+                  />
+                  <input
+                    type="submit"
+                    class="col-4 submit"
+                    id="submit"
+                    value="Find Offer"
+                  />
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="offer-bellow-button">
+            <a href="#" class="why-zappr">Why Zappr?</a>
+          </div>
+        </div>
+      </section>
+      <!-- faviorite section -->
+      <section class="favorite mobile">
+        <div class="container">
+          <div class="icon-block">
+            <h4 class="icon-title">Buy/Sell the favorites with No Fees*</h4>
+            <div class="icon-list">
+              <img src="./images/Frame15.png" alt="icons" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Features section -->
+      <section class="features mobile">
+        <div class="container">
+          <div class="row features-row">
+            <div class="col-12 heading">
+              <h4 class="features-title">Features: We think about you</h4>
+            </div>
+            <div class="features-content">
+              <div class="col-3 features-item">
+                <div class="feature-block">
+                  <div class="feature-img">
+                    <img src="./images/SecureEscrow.png" alt="feature" />
+                  </div>
+                  <h4 class="feature-title">Secured by Escrow</h4>
+                  <p class="feature-text">
+                    Amet minim mollit non deserunt <br />
+                    ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <a href="" class="learn-more">Learn how our Escrow works</a>
+                </div>
+              </div>
+              <div class="col-3 features-item">
+                <div class="feature-block">
+                  <div class="feature-img">
+                    <img src="./images/NewbieFriendly.png" alt="feature" />
+                  </div>
+                  <h4 class="feature-title">Newbie Friendly</h4>
+                  <p class="feature-text">
+                    Amet minim mollit non deserunt <br />
+                    ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <a href="" class="learn-more"
+                    >We always keep you in mind, See More</a
+                  >
+                </div>
+              </div>
+              <div class="col-3 features-item">
+                <div class="feature-block">
+                  <div class="feature-img">
+                    <img src="./images/MultiplePayments.png" alt="feature" />
+                  </div>
+                  <h4 class="feature-title">120+ Payment Methods</h4>
+                  <p class="feature-text">
+                    Amet minim mollit non deserunt <br />
+                    ullamco est sit aliqua dolor do amet sint.
+                  </p>
+                  <a href="" class="learn-more">Learn how our Escrow works</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 footer">
+              <div class="features-more center">
+                <button class="alt more">See full features</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Buy sell section -->
+      <section id="buy-sell" class="mobile">
+        <div class="container">
+          <div class="row buy-sell-row">
+            <div class="col-6 buy-containeer item">
+              <h4 class="buy-sell-title">Buy</h4>
+              <div class="buy-sell-content">
+                <div class="but-sell-item">
+                  <div class="sell-item">
+                    <img src="./images/Component-1.png" alt="" />
+                  </div>
+                  <div class="sell-item"><span>Zelle, 1+</span></div>
+                  <div class="sell-item"><span>30,244.12 USD/BTC</span></div>
+                  <div class="sell-item"><span>$10-200$</span></div>
+                </div>
+                <div class="but-sell-item">
+                  <div class="sell-item">
+                    <img src="./images/Component-2.png" alt="" />
+                  </div>
+                  <div class="sell-item"><span>Zelle, 1+</span></div>
+                  <div class="sell-item"><span>30,244.12 USD/BTC</span></div>
+                  <div class="sell-item"><span>$10-200$</span></div>
+                </div>
+                <div class="but-sell-item">
+                  <div class="sell-item">
+                    <img src="./images/Component-1.png" alt="" />
+                  </div>
+                  <div class="sell-item"><span>Zelle, 1+</span></div>
+                  <div class="sell-item"><span>30,244.12 USD/BTC</span></div>
+                  <div class="sell-item"><span>$10-200$</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sell-container item">
+              <h4 class="buy-sell-title">Sell</h4>
+              <div class="buy-sell-content">
+                <div class="but-sell-item">
+                  <div class="sell-item">
+                    <img src="./images/Component-1.png" alt="" />
+                  </div>
+                  <div class="sell-item"><span>Zelle, 1+</span></div>
+                  <div class="sell-item"><span>30,244.12 USD/BTC</span></div>
+                  <div class="sell-item"><span>$10-200$</span></div>
+                </div>
+                <div class="but-sell-item">
+                  <div class="sell-item">
+                    <img src="./images/Component-2.png" alt="" />
+                  </div>
+                  <div class="sell-item"><span>Zelle, 1+</span></div>
+                  <div class="sell-item"><span>30,244.12 USD/BTC</span></div>
+                  <div class="sell-item"><span>$10-200$</span></div>
+                </div>
+                <div class="but-sell-item">
+                  <div class="sell-item">
+                    <img src="./images/Component-1.png" alt="" />
+                  </div>
+                  <div class="sell-item"><span>Zelle, 1+</span></div>
+                  <div class="sell-item"><span>30,244.12 USD/BTC</span></div>
+                  <div class="sell-item"><span>$10-200$</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Cryto section -->
+      <section id="crypto" class="mobile">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="crypto">
+                <p class="crypto-title">
+                  Sign up and buy or sell crypto in 5 <br />
+                  minutes with zero commission fees
+                </p>
+                <button class="crypto-button alt">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="footer mobile">
+      <div class="footer-1">
+        <div class="container">
+          <div class="row footer-1-content">
+            <div class="col-sm-6 widget">
+              <div class="widget-item">
+                <div class="log">
+                  <img src="./images/spacio.png" alt="" class="footer-log" />
+                </div>
+              </div>
+              <div class="widget-item">
+                <h5 class="footer-title">Product</h5>
+                <ul class="footer-list">
+                  <li><a href="" class="nav_link">Sell Bitcoin</a></li>
+                  <li><a href="" class="nav_link">Sell Bitcoin</a></li>
+                  <li><a href="" class="nav_link">Sell Bitcoin</a></li>
+                  <li><a href="" class="nav_link">Sell Bitcoin</a></li>
+                  <li><a href="" class="nav_link">Sell Bitcoin</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-6 widget">
+              <div class="widget-item">
+                <h5 class="footer-title">About spacio</h5>
+                <ul class="footer-list">
+                  <li><a href="" class="nav_link">About Us</a></li>
+                  <li><a href="" class="nav_link">About Us</a></li>
+                  <li><a href="" class="nav_link">About Us</a></li>
+                  <li><a href="" class="nav_link">About Us</a></li>
+                  <li><a href="" class="nav_link">About Us</a></li>
+                </ul>
+              </div>
+              <div class="widget-item">
+                <h5 class="footer-title">Support</h5>
+                <ul class="footer-list">
+                  <li><a href="" class="nav_link">Contact Us</a></li>
+                  <li><a href="" class="nav_link">Contact Us</a></li>
+                  <li><a href="" class="nav_link">Contact Us</a></li>
+                  <li><a href="" class="nav_link">Contact Us</a></li>
+                  <li><a href="" class="nav_link">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-2">
+        <div class="container">
+          <p class="Copyright">
+            “SPACI0” is a registered trademark of Logic0x, Ltd. Copyright © 2022
+            Logic0x, Ltd. All Rights Reserved. Paxful Inc. has no relation to
+            MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, Paypal,
+            Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money, WebMoney,
+            Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase
+            QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo,
+            Apple, ChimpChange or any other payment method. We make no claims
+            about being supported by or supporting these services. Their
+            respective wordmarks and trademarks belong to them alone. Official
+            mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE
+            19808
+          </p>
+        </div>
+      </div>
+    </footer>
+    <nav popover role="menu" class="visible" id="menu">
+      <ul class="visible-content">
+        <li><a href="#" class="text-black">Buy</a></li>
+        <li><a href="#" class="text-black">Sell</a></li>
+        <li><a href="#" class="text-black">Create an offer</a></li>
+        <li><button class="login alt">Login</button></li>
+        <li><button class="signup alt">Get Started</button></li>
+        <li>
+          <span class="tranlate"
+            ><img src="./images/Frame.png" alt="language"
+          /></span>
+        </li>
+      </ul>
+      <button popovertarget="menu" popovertargetaction="hide" class="close">
+        Close
+      </button>
+    </nav>
+  </body>
 </html>

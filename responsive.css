@@ -1,0 +1,306 @@
+.col-3 {
+  width: calc(100% / 12 * 12);
+}
+.col-4 {
+  width: calc(100% / 12 * 12);
+}
+.col-sm-6 {
+  width: calc(100% / 12 * 12);
+}
+.header-wrapper {
+  display: none;
+}
+.mobile-menu-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.mobile {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container {
+  padding: 0 0;
+}
+.container.wrapper {
+  height: unset;
+}
+.container.wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.features-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  width: calc(100%);
+  gap: 5rem;
+}
+.row.buy-sell-row {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.crypto-title {
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+fieldset {
+  border: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+.col-9 {
+  width: calc(100% / 12 * 12);
+}
+.col-6 {
+  width: calc(100% / 12 * 12);
+}
+.offer-block {
+  background: #fff;
+  width: min(1160px, 95%);
+  padding: 2rem 4rem;
+  height: 75%;
+  border-radius: 10px;
+}
+.offer-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--black-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.buy-sell-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.12rem;
+}
+.buy-containeer.item {
+  border-right: unset;
+  padding: 5rem 0 0 0;
+}
+.sell-container.item {
+  padding: 5rem 0 5rem 0;
+}
+.sell-item {
+  font-size: 14px;
+}
+.sell-item img {
+  width: 32px;
+}
+h4.features-title {
+  text-align: center;
+}
+.footer-1-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.widget {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .feature-text {
+    font-size: 14px;
+  }
+  .header-wrapper {
+    display: none;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+  .features-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: calc(100%);
+    gap: 1rem;
+  }
+  .row.buy-sell-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .crypto-title {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .col-4 {
+    width: calc(100% / 12 * 3);
+  }
+  fieldset {
+    border: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+  }
+  .col-9 {
+    width: calc(100% / 12 * 9);
+  }
+  .offer-block {
+    background: #fff;
+    width: min(1160px, 95%);
+    padding: 2rem 4rem;
+    height: 16.5rem;
+    border-radius: 10px;
+  }
+  .offer-title {
+    font-size: 2.5rem;
+  }
+  .col-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .buy-sell-title {
+    text-align: left;
+  }
+  .buy-containeer.item {
+    border-right: 1px solid #000;
+    padding: 5rem 2rem 5rem 0;
+  }
+  .sell-container.item {
+    padding: 5rem 0 5rem 2rem;
+  }
+  .col-3 {
+    width: calc(100% / 12 * 4);
+  }
+
+  .features-title {
+    text-align: center;
+  }
+  .footer-1-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: unset;
+  }
+  .widget {
+    justify-content: stretch;
+  }
+  .sell-item img {
+    width: 32px;
+  }
+  .learn-more {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .container.wrapper {
+    height: 85vh;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header-wrapper {
+    display: flex;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .mobile {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+  .features-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: calc(100% - 5%);
+    gap: 5rem;
+  }
+  .row.buy-sell-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .crypto-title {
+    font-weight: normal;
+    font-size: 75px;
+    margin-bottom: 5rem;
+  }
+  .col-4 {
+    width: calc(100% / 12 * 3);
+  }
+  fieldset {
+    border: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+  }
+  .col-9 {
+    width: calc(100% / 12 * 9);
+  }
+  .offer-block {
+    background: #fff;
+    width: min(1160px, 95%);
+    padding: 2rem 4rem;
+    height: 16.5rem;
+    border-radius: 10px;
+  }
+  .offer-title {
+    font-size: 2.5rem;
+  }
+  .col-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .buy-sell-title {
+    text-align: left;
+  }
+  .buy-containeer.item {
+    border-right: 1px solid #000;
+    padding: 5rem 2rem 5rem 0;
+  }
+  .sell-container.item {
+    padding: 5rem 0 5rem 2rem;
+  }
+  .col-3 {
+    width: calc(100% / 12 * 4);
+  }
+
+  h4.features-title {
+    text-align: left;
+  }
+  .footer-1-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: unset;
+  }
+  .widget {
+    justify-content: stretch;
+  }
+  .sell-item img {
+    width: 74px;
+  }
+  .container.wrapper {
+    height: 85vh;
+  }
+  .visible {
+    display: none;
+  }
+}
